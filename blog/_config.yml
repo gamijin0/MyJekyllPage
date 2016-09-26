@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: GamiJin's Page
 subtitle:
 description:
-author: John Doe
-language:
+author: 金高铭
+language: zh-Hans
 timezone:
 
 # URL
@@ -69,7 +69,12 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
      type: git
-     repo: https://github.com/gamijin0/gamijin0.github.io 
+     repo: git@github.com:gamijin0/gamijin0.github.io.git
      branch: master
 
 
+#MENU
+menu:
+     home: /
+     archives: /archives
+     tags: /tags
